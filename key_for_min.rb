@@ -3,12 +3,12 @@
 require "pry"
 
 def key_for_min_value(name_hash)
-  new_key = nil  #nil is set because it is replaced.
-  new_value = nil #nil is set because it is replaced.
+  min_key = nil  #key and value are nil is set because it is replaced.
+  min_value = nil
   name_hash.each do |key,value|
-    if new_value == nil || value < new_value
-      new_value = value
-      new_key = key
+    if min_value == nil || value < new_value
+      min_value = value
+      min_key = key
     else
     end
   end
