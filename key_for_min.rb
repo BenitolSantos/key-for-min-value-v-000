@@ -2,7 +2,7 @@
 # Given a hash with numeric values, return the key for the smallest value
 require "pry"
 
-hash = {"key" : nil}
+
 
 def key_for_min_value(name_hash)
   min_key = nil  #key and value are nil is set because it is replaced.
@@ -22,7 +22,7 @@ def key_for_min_value(name_hash)
 end
 
 #min_value = nil  <- min_value = 300
-#then it compares it to
+#min value is always replaced. then compared to the current value.
 
 
 =begin
