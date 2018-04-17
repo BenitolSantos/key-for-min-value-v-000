@@ -31,15 +31,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |key,value|
     value_array << value
   end
-  if value_array[0] < value_array[1] && value_array[0] < value_array[2]
-    name_hash.key(value_array[0])
-  elsif value_array[1] < value_array[2] && value_array[1] < value_array[2]
-    name_hash.key(value_array[1])
-  elsif value_array[2] < value_arrayvalue[1] && value_array[2] < value_array[0]
-    name_hash.key(value_array[2])
-  else
-    nil
-  end
 end
+
+#This is too ugly and only works for 3
 
 =end
