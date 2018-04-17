@@ -15,8 +15,8 @@ def key_for_min_value(name_hash)
   min_key
 end
 
-#min_value = nil  <- min_value = 300 
-#then it compares it 
+#min_value = nil  <- min_value = 300
+#then it compares it to 
 
 
 =begin
