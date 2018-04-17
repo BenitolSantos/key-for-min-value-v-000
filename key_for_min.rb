@@ -2,6 +2,8 @@
 # Given a hash with numeric values, return the key for the smallest value
 require "pry"
 
+hash = {"key" : nil}
+
 def key_for_min_value(name_hash)
   min_key = nil  #key and value are nil is set because it is replaced.
   min_value = nil
@@ -10,7 +12,7 @@ def key_for_min_value(name_hash)
       #since min_value starts as nil, its replaced by the first value.
       #min value is stored and compared to the next value which is value.
       #it doesn't set the min_key to key or min_value to value unless current
-      #value is greater than the last value. 
+      #value is greater than the last value.
       min_value = value
       min_key = key
     else
