@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
       #since min_value starts as nil, its replaced by the first value.
       #min value is stored and compared to the next value which is value.
       #it doesn't set the min_key to key or min_value to value unless current
-      #value is less than the previous mimimum value given, min_value.
+      #value is less than the previous minimum value given, min_value.
       min_value = value
       min_key = key
     else
