@@ -22,7 +22,7 @@ def key_for_min_value(name_hash)
 end
 
 #min_value = nil  <- min_value = 300
-#min value is always replaced. then compared to the current value.
+#value is always replaced only if its smaller than the min value
 
 
 =begin
